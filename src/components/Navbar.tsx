@@ -52,7 +52,7 @@ const Navbar = () => {
             e.preventDefault();
             scrollToTop();
           }}
-          aria-label="Pulse Robot"
+          aria-label="Nafis Mahim"
         >
           <img 
             src="/logo.svg" 
