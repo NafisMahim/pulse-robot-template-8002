@@ -105,30 +105,37 @@ const Hero = () => {
               className="pulse-chip mb-3 sm:mb-6 opacity-0 animate-fade-in" 
               style={{ animationDelay: "0.1s" }}
             >
-              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">01</span>
-              <span>Purpose</span>
+              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">👋</span>
+              <span>Welcome</span>
             </div>
             
             <h1 
               className="section-title text-3xl sm:text-4xl lg:text-5xl xl:text-6xl leading-tight opacity-0 animate-fade-in" 
               style={{ animationDelay: "0.3s" }}
             >
-              Atlas: Where Code<br className="hidden sm:inline" />Meets Motion
+              Nafis Islam Mahim
             </h1>
             
             <p 
               style={{ animationDelay: "0.5s" }} 
               className="section-subtitle mt-3 sm:mt-6 mb-4 sm:mb-8 leading-relaxed opacity-0 animate-fade-in text-gray-950 font-normal text-base sm:text-lg text-left"
             >
-              The humanoid companion that learns and adapts alongside you.
+              Aspiring Computer Programmer, Businessman, Entrepreneur
             </p>
+            
+            <blockquote 
+              style={{ animationDelay: "0.6s" }} 
+              className="border-l-4 border-pulse-500 pl-4 italic text-gray-700 mb-6 opacity-0 animate-fade-in"
+            >
+              "When everything seems to be going against you, remember that the airplane takes off against the wind, not with it" - Henry Ford
+            </blockquote>
             
             <div 
               className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-in" 
               style={{ animationDelay: "0.7s" }}
             >
-              <a 
-                href="#get-access" 
+               <a 
+                href="#about" 
                 className="flex items-center justify-center group w-full sm:w-auto text-center" 
                 style={{
                   backgroundColor: '#FE5C02',
@@ -138,11 +145,11 @@ const Hero = () => {
                   cursor: 'pointer',
                   fontSize: '14px',
                   lineHeight: '20px',
-                  padding: '16px 24px', // Slightly reduced padding for mobile
+                  padding: '16px 24px',
                   border: '1px solid white',
                 }}
               >
-                Request Access
+                Explore
                 <ArrowRight className="ml-2 w-4 h-4 transition-transform group-hover:translate-x-1" />
               </a>
             </div>

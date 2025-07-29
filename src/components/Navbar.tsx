@@ -73,8 +73,10 @@ const Navbar = () => {
           >
             Home
           </a>
-          <a href="#features" className="nav-link">About</a>
-          <a href="#details" className="nav-link">Contact</a>
+          <a href="#about" className="nav-link">About Me</a>
+          <a href="#education" className="nav-link">Education/Awards</a>
+          <a href="#gallery" className="nav-link">Gallery</a>
+          <a href="#contact" className="nav-link">Contact</a>
         </nav>
 
         {/* Mobile menu button - increased touch target */}
@@ -106,17 +108,37 @@ const Navbar = () => {
             Home
           </a>
           <a 
-            href="#features" 
+            href="#about" 
             className="text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100" 
             onClick={() => {
               setIsMenuOpen(false);
               document.body.style.overflow = '';
             }}
           >
-            About
+            About Me
           </a>
           <a 
-            href="#details" 
+            href="#education" 
+            className="text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100" 
+            onClick={() => {
+              setIsMenuOpen(false);
+              document.body.style.overflow = '';
+            }}
+          >
+            Education/Awards
+          </a>
+          <a 
+            href="#gallery" 
+            className="text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100" 
+            onClick={() => {
+              setIsMenuOpen(false);
+              document.body.style.overflow = '';
+            }}
+          >
+            Gallery
+          </a>
+          <a 
+            href="#contact" 
             className="text-xl font-medium py-3 px-6 w-full text-center rounded-lg hover:bg-gray-100" 
             onClick={() => {
               setIsMenuOpen(false);

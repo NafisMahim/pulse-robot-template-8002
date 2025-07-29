@@ -24,19 +24,19 @@ const Newsletter = () => {
       setIsSubmitting(false);
     }, 1000);
   };
-  return <section id="newsletter" className="bg-white py-0">
-      <div className="section-container opacity-0 animate-on-scroll">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex items-center gap-4 mb-6">
+  return <section id="contact" className="bg-white py-16">
+      <div className="container px-4 sm:px-6 lg:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <div className="flex items-center justify-center gap-4 mb-6">
             <div className="pulse-chip">
-              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">05</span>
-              <span>Newsletter</span>
+              <span className="inline-flex items-center justify-center w-5 h-5 rounded-full bg-pulse-500 text-white mr-2">✉️</span>
+              <span>Contact</span>
             </div>
           </div>
           
-          <h2 className="text-5xl font-display font-bold mb-4 text-left">Subscribe to the newsletter</h2>
-          <p className="text-xl text-gray-700 mb-10 text-left">
-            Be first to hear about breakthroughs, partnerships, and deployment opportunities
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4">Get in Touch</h2>
+          <p className="text-lg text-gray-700 mb-10">
+            Feel free to reach out to me for any inquiries, collaborations, or just to say hello!
           </p>
           
           <form onSubmit={handleSubmit} className="flex flex-col md:flex-row gap-4 items-start md:items-center">
