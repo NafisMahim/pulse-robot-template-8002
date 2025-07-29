@@ -21,9 +21,10 @@ const EducationSection = () => {
           
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
             {/* Elementary School */}
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h4 className="text-xl font-bold text-blue-600 mb-4">Elementary School</h4>
-              <div className="space-y-2 text-sm text-gray-700">
+            <div className="bubbly-card education-card-elementary group">
+              <div className="text-5xl mb-6 text-center transform group-hover:scale-110 transition-transform duration-300">🎓</div>
+              <h4 className="text-2xl font-bold text-gray-800 mb-6 tracking-wide text-center">Elementary School</h4>
+              <div className="space-y-3 text-gray-700 leading-relaxed">
                 <div>• Code.org Course 1-5 Certificates</div>
                 <div>• NY Chesskids 2nd & 5th Place</div>
                 <div>• 1st Place Art & Writing Competition</div>
@@ -33,12 +34,15 @@ const EducationSection = () => {
                 <div>• International Martial Arts Certificates</div>
                 <div>• Best Fighter Award (2018, 2019)</div>
               </div>
+              <div className="absolute top-4 right-4 w-16 h-16 bg-white/30 rounded-full blur-sm"></div>
+              <div className="absolute bottom-4 left-4 w-12 h-12 bg-white/40 rounded-full blur-md"></div>
             </div>
 
             {/* Middle School */}
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h4 className="text-xl font-bold text-green-600 mb-4">Middle School</h4>
-              <div className="space-y-2 text-sm text-gray-700">
+            <div className="bubbly-card education-card-middle group">
+              <div className="text-5xl mb-6 text-center transform group-hover:scale-110 transition-transform duration-300">🏆</div>
+              <h4 className="text-2xl font-bold text-gray-800 mb-6 tracking-wide text-center">Middle School</h4>
+              <div className="space-y-3 text-gray-700 leading-relaxed">
                 <div>• NYCUDL City Championships 1st & 2nd Place</div>
                 <div>• Multiple Local Championships wins</div>
                 <div>• NYCUDL Gold Medals (State Championships)</div>
@@ -48,12 +52,15 @@ const EducationSection = () => {
                 <div>• 1st Degree Black Belt (Shotokan Karate)</div>
                 <div>• Honors Graduation Diploma</div>
               </div>
+              <div className="absolute top-4 right-4 w-16 h-16 bg-white/30 rounded-full blur-sm"></div>
+              <div className="absolute bottom-4 left-4 w-12 h-12 bg-white/40 rounded-full blur-md"></div>
             </div>
 
             {/* High School */}
-            <div className="bg-white rounded-lg shadow-lg p-6">
-              <h4 className="text-xl font-bold text-orange-600 mb-4">High School</h4>
-              <div className="space-y-2 text-sm text-gray-700">
+            <div className="bubbly-card education-card-high group">
+              <div className="text-5xl mb-6 text-center transform group-hover:scale-110 transition-transform duration-300">🎯</div>
+              <h4 className="text-2xl font-bold text-gray-800 mb-6 tracking-wide text-center">High School</h4>
+              <div className="space-y-3 text-gray-700 leading-relaxed">
                 <div>• NYPDL Parliamentary Top 5 Speaker</div>
                 <div>• BevHacks 6th Place Hackathon</div>
                 <div>• NY Open Tournament Kata Gold Champion</div>
@@ -62,13 +69,16 @@ const EducationSection = () => {
                 <div>• Captain of Karate Team</div>
                 <div>• Harvard STRIPED Youth Advocate</div>
               </div>
+              <div className="absolute top-4 right-4 w-16 h-16 bg-white/30 rounded-full blur-sm"></div>
+              <div className="absolute bottom-4 left-4 w-12 h-12 bg-white/40 rounded-full blur-md"></div>
             </div>
           </div>
 
           {/* Positions and Extracurriculars */}
-          <div className="mt-12 bg-white rounded-lg shadow-lg p-8">
-            <h4 className="text-xl font-bold text-gray-900 mb-6">Positions, Extracurriculars, and Experiences</h4>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700">
+          <div className="mt-12 bubbly-card education-card-positions group">
+            <div className="text-5xl mb-6 text-center transform group-hover:scale-110 transition-transform duration-300">🌟</div>
+            <h4 className="text-2xl font-bold text-gray-800 mb-8 tracking-wide text-center">Positions, Extracurriculars, and Experiences</h4>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-700 leading-relaxed">
               <div>• Captain and Co-Coach of Karate Team</div>
               <div>• Harvard University STRIPED Youth Advocate</div>
               <div>• Public Forum Debate Team</div>
@@ -82,6 +92,8 @@ const EducationSection = () => {
               <div>• Weekend Religious Education</div>
               <div>• Stuyvesant RedCross</div>
             </div>
+            <div className="absolute top-4 right-4 w-16 h-16 bg-white/30 rounded-full blur-sm"></div>
+            <div className="absolute bottom-4 left-4 w-12 h-12 bg-white/40 rounded-full blur-md"></div>
           </div>
         </div>
       </div>
